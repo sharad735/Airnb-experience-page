@@ -1,0 +1,144 @@
+.product-carousal{
+    position: relative;
+    padding-left: 40px;
+    background-color: white;
+    height: 300px;
+    margin-left: 0px;
+
+}
+.product-carousal h1{
+    padding-top: 0px;
+    padding-bottom:20px ;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.product-container{
+    margin-top: 25px;
+    padding-left: 40px;
+    margin-right: 10px;
+    height:auto;
+    width: 50%;
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+}
+.pre-btn, .next-btn{
+    
+    position: absolute;
+    top: 20px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid lightgray;
+    border-radius: 100%;
+    background-color: white;
+    font-size: 21px;
+    width: 30px;
+    height: 30px;
+
+}
+.next-btn{
+    right: 50px;
+
+}
+.pre-btn{
+    right: 85px;
+}
+.next-btn p, .pre-btn p{
+   
+    /* font-size: 30px; */
+    /* width: 30px; */
+    /* height: 30px; */
+}
+.product-container img{
+    width: 600px;
+    height: 350px;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding-left:0px ;
+
+}
+.product-container h5{
+    position: absolute;
+    display: flex;
+    color: white;
+    left: 60px;
+    top: 40px;
+    
+
+
+}
+.product-container h2{
+    position: absolute;
+    display: flex;
+    color: white;
+    left: 60px;
+    top: 60px;
+    
+
+
+}
+.product{
+    display: flex;
+}
+.product-container Button{
+    color: black;
+    background-color: white;
+    width: 85px;
+    height: 35px;
+    border: 0px solid white;
+    border-radius: 5px;
+    position: absolute;
+    text-transform: none;
+    text-overflow: ellipsis;
+    bottom: 40px;
+    left: 60px;
+    
+}
+.product-container Button:hover{
+    background-color: lightgrey;
+}
+.product-container Button h3{
+    font-weight: normal;
+    padding-left: 0px;
+   
+    
+
+
+}
+.product-carousal .buttons{
+    padding-left: 40px;
+    padding-top: 20px;
+    display: flex;
+}
+.product-carousal .buttons Button{
+    color: black;
+    border: 1px solid lightgray;
+    display: inline-block;
+    border-radius: 25px;
+    margin-left: 20px;
+    text-transform: none;
+
+}
+.product-carousal .buttons p {
+    border-left: 1px solid black;
+    height: 37px;
+    margin-left: 20px;
+}
+.product-carousal .buttons .prev-btn{
+    margin-left: 20px;
+    cursor: pointer;
+    border: 1px solid lightgray;
+    border-radius: 100%;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+}
+.product-carousal .buttons .prev-btn h4{
+    font-weight: normal;
+    font-size: 25px;
+    margin-left: 15px;
+
+}
